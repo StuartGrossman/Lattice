@@ -1,14 +1,17 @@
 Run Commands :
 
-NPM INSTALL 
+NPM INSTALL
 
 
-"build": "webpack --mode production",
-"start": "npm run build && node src/server/index.js",
-"client": "webpack-dev-server --mode development --devtool inline-source-map --hot",
-"server": "nodemon src/server/index.js",
-"test-unit": "mocha ./src/server/server-spec/index.spec.js",
-"dev": "concurrently \"npm run server\" \"npm run client\""
+npm run dev - starts dev env
+
+npm run test-unit - runs tests (needs more)
+
+
+
+
+"test-unit
+
 
 
 MUST ADD YOUR OWN API KEY FILE - env.json in the root of the project
